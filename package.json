@@ -1,5 +1,5 @@
 {
-  "name": "back",
+  "name": "ojitos-tapatios-back",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -29,5 +29,9 @@
     "build:dev": "NODE_ENV=development tsc",
     "build": "NODE_ENV=production tsc",
     "false": "eslint --print-config src/index.ts"
-  }
+  },
+  "engines": {
+    "node": "15.x"
+  },
+  "author": "walle214"
 }
